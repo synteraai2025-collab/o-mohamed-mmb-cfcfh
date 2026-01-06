@@ -1,5 +1,10 @@
 import { RestaurantLandingPage } from '@/components/RestaurantLandingPage';
 
 export default function Home() {
-  return <RestaurantLandingPage />;
+  return (
+    <main className="min-h-screen">
+      <RestaurantLandingPage />
+    </main>
+  );
 }
+
