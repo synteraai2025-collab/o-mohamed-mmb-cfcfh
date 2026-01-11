@@ -4,7 +4,8 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import { ChefHat, Clock, MapPin, Phone, Star, Calendar, Users, Utensils } from 'lucide-react';
+import { ChefHat, Clock, MapPin, Phone, Star, Calendar, Users, Utensils, FileText } from 'lucide-react';
+import Link from 'next/link';
 
 interface MenuItem {
   id: number;
@@ -329,3 +330,4 @@ export function RestaurantLandingPage() {
     </div>
   );
 }
+
